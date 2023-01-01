@@ -2,19 +2,26 @@
  * 1. Membuat array
  */
 const days = ['Minggu', 'Senin', 'Selasa', 'Rabu'];
-console.log(days);
+// console.log(days);
 
 
 /**
  * 2. Element di dalam array diakses atau diubah melalui key (index).
  */
 
+days[0] = 'Ahad';
+console.log(days[0]);
+console.log(days);
+days[4] = 'Kamis';
+console.log(days);
+days.push('Jumat');
+console.log(days);
 
 /**
- * 3. 
+ * 3. Element boleh memiliki tipe data yang berbeda
  */
 
 
 /**
- * 4. 
+ * 4. Tipe data array adalah object
  */
