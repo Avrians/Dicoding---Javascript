@@ -1,7 +1,7 @@
 /**
  * 1. Membuat array
  */
-// const days = ['Minggu', 'Senin', 'Selasa', 'Rabu'];
+const days = ['Minggu', 'Senin', 'Selasa', 'Rabu'];
 // console.log(days);
 
 
@@ -28,5 +28,13 @@ const myArray = [1, 'Dev Pendampingan', true];
  * 4. Tipe data array adalah object
  */
 
-console.log(typeof myArray);
-console.log(Array.isArray(myArray));
+// console.log(typeof myArray);
+// console.log(Array.isArray(myArray));
+
+/**
+ * 5. Looping sepanjang element menggunakan for of, foreach, dan lainnya.
+ */
+for(const day of days) {
+    console.log(day);
+};
+
