@@ -22,8 +22,11 @@
  */
 
 const myArray = [1, 'Dev Pendampingan', true];
-console.log(myArray);
+// console.log(myArray);
 
 /**
  * 4. Tipe data array adalah object
  */
+
+console.log(typeof myArray);
+console.log(Array.isArray(myArray));
